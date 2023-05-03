@@ -46,7 +46,7 @@ public class ForgotPassword extends HttpServlet {
 			props.put("mail.smtp.port", "465");
 			Session session = Session.getDefaultInstance(props, new javax.mail.Authenticator() {
 				protected PasswordAuthentication getPasswordAuthentication() {
-					return new PasswordAuthentication("sara.marsar11@gmail.com", "sara@@mariam");// Put your email
+					return new PasswordAuthentication("address mail", "password");// Put your email
 																									// id and
 																									// password here
 				}
